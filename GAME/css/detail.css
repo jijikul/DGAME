@@ -1,0 +1,442 @@
+#main{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#brand{
+    color: #61686D;
+    font-size: 14px;
+}
+#brand a{
+    color: #8F98A0;
+    font-size: 16px;
+}
+#brand a:hover{
+    color: #B9A074;
+}
+#game_detail_nav{
+    width: 1050px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+#game_detail_nav h2{
+    float: left;
+}
+#game_detail_nav button{
+    background: #2D506F;
+    width: 80px;
+    height: 30px;
+    color: #67C1F4;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+#game_show{
+    width: 1050px;
+    overflow: hidden;
+    margin-top: 10px;
+    background: #1E2936;
+}
+.game_show_left{
+    width: 600px;
+    float: left;
+}
+.game_video{
+    width: 600px;
+    height: 340px;
+}
+.game_video>div{
+    display: none;
+}
+.game_video>div.show{
+    display: block;
+}
+.game_video_list{
+    height: 67px;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.game_video_list li{
+    width: 115px;
+    height: 65px;
+    margin-right:3px ;
+    margin-bottom: 3px;
+    float: left;
+}
+.game_video_list li.active{
+    border: 1px solid #fff;
+}
+.game_video_list li img{
+    width: 100%;
+}
+.back_bar{
+    margin-left: 2px;
+    width: 597px;
+    height: 30px;
+    background: #0D131D;
+    border-radius: 5px;
+}
+.back_bar button{
+    width: 40px;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    background:#192834 ;
+}
+.back_bar .backword{
+    float: left;
+}
+.back_bar .forword{
+    float: right;
+}
+.back_bar>div{
+    /*width: 50px;*/
+    height: 30px;
+    float: left;
+    margin-left:3px;
+    /*margin-right:3px;*/
+    border-radius: 5px;
+    background: #192834;
+}
+.game_show_right{
+    width: 430px;
+    float: right;
+
+}
+.detail_img>img{
+    width: 100%;
+}
+.detail_txt{
+    font-size: 12px;
+    color:#9EACB9;
+
+}
+.detail_txt>div{
+    margin-top:10px ;
+}
+.detail_txt p{
+    margin-left: 40px;
+}
+.detail_txt_pj,.detail_txt_date,.detail_txt_bq{
+    color:#718A87 ;
+}
+.detail_txt_pj>p>b{
+    font-size: 14px;
+    color: #B69E73;
+    font-weight: normal;
+}
+.detail_txt_bq>p>i{
+    display: inline-block;
+    margin-right:5px ;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #64BBEE;
+    border-radius: 5px;
+    background: #243E51;
+}
+#game_detail{
+    margin-top:30px;
+    overflow: hidden;
+}
+.game_detail_left{
+    width: 700px;
+    float: left;
+}
+.car_box{
+    width: 700px;
+    height: 100px;
+    background: #404D59;
+    font-size: 18px;
+    line-height: 85px;
+    text-indent: 30px;
+    position: relative;
+}
+.car_box>img{
+    position: relative;
+    top: -38px;
+   left: 510px;
+}
+.add_car{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px;
+    text-indent: 10px;
+    background: #000;
+    border-radius: 5px;
+    position: absolute;
+    top:75px;
+    left: 445px;
+}
+.add_car>button{
+    background:  -webkit-gradient(linear, 0% 0%, 0% 100%,from(#799905), to(#536904));
+    color: #B4CC61;
+    border: 0px;
+    border-radius: 3px;
+    width:130px;
+    height: 35px;
+    margin-left: 10px;
+
+}
+.game_about,.game_config{
+    margin-top: 30px;
+    padding: 5px;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 1px solid #2F4459;
+    box-shadow: inset 0px -3px 8px #000;
+
+}
+.game_config{
+    height: 200px;
+    margin-top:50px;
+}
+.game_about h2,.game_config h2,.lscptj h2,.pinglun_sel h2{
+    color: #66BDEB;
+    font-weight: normal;
+
+}
+.game_about>div,.game_config>div,.lscptj>p,.hr{
+    height: 1px;
+    background:-webkit-gradient(linear, 0% 0%, 100% 0%,from(#305871), to(#1F2C3C));
+}
+.game_about ul{
+    margin-top: 15px;
+}
+.game_about p,.game_config{
+    color: #A2A6AB;
+    text-align: justify;
+    font-size: 14px;
+}
+.game_about li{
+    color: #265B7E;
+    margin-bottom: 15px;
+}
+#zkyd1,#zkyd2{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: #537CA6;
+}
+.lscptj{
+    height: 140px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.lscptj ul{
+    width: 933px;
+    margin-top: 10px;
+    height: 105px;
+    overflow: hidden;
+}
+.lscptj li{
+    width: 230px;
+    margin-right: 3px;
+    background: #16202D;
+    float: left;
+}
+.lscptj li img{
+    width: 80%;
+    margin-left: 25px;
+}
+.game_config>ul{
+    width: 340px;
+    margin-top: 15px;
+}
+.game_config>ul>li{
+    margin-bottom: 8px;
+}
+.min_config{
+    float: left;
+}
+.tj_config{
+    float: right;
+}
+.f1{
+    color: #4582A5;
+}
+.game_config span{
+    color: #61686D;
+    margin-right: 5px;
+}
+.game_detail_right{
+    width: 300px;
+    float: right;
+ }
+.biaoqian{
+    width: 300px;
+    overflow: hidden;
+    background: #17202E;
+}
+.biaoqian>ul{
+    width: 250px;
+    margin: 25px;
+}
+.biaoqian li{
+    margin-bottom: 2px;
+    background: #1A2B3A;
+    line-height: 25px;
+
+}
+.biaoqian li>b{
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    background: #131B25;
+}
+.biaoqian li>b>img{
+    width: 100%;
+}
+.biaoqian li a{
+    display: inline-block;
+    width: 210px;
+    text-indent: 10px;
+    color: #66BFF3;
+}
+.jiang{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    background: #17202E;
+}
+#community{
+    width: 1050px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.pinglun_header{
+    width: 1030px;
+    height: 40px;
+    background:#B0B5BA;
+    color: #638192;
+    padding: 10px;
+}
+.pinglun_header span{
+    color: #A8926A;
+    font-size: 16px;
+}
+.pinglun_body{
+    width: 1030px;
+    height: 180px;
+    background: #2A475E;
+    margin-top: 3px;
+    padding: 10px;
+}
+.pinglun_body>div{
+    width: 25%;
+    float: left;
+    color: #608E9C;
+    text-align: left;
+}
+.pinglun_body input{
+    margin-top: 8px;
+}
+.pinglun_body>div>p{
+    color:#4481A4;
+}
+.pinglun_footer{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.pinglun_footer_left{
+    width: 700px;
+    overflow: hidden;
+    float: left;
+
+}
+.pinglun_footer_left_txt{
+    width: 680px;
+    padding: 10px;
+    overflow: hidden;
+    background: #16202D;
+}
+.head_img_box{
+    width: 200px;
+    overflow: hidden;
+    float: left;
+}
+.head_img{
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+.head_img>img{
+    width: 100%;
+}
+.user_info{
+    width: 160px;
+    margin-left: 5px;
+    float: left;
+}
+.user_info{
+    color: #6B7E90;
+}
+.pinglun_left_txt_content{
+    width: 480px;
+    float: right;
+}
+.ding{
+    overflow: hidden;
+    background:#121A24 ;
+}
+.ding div{
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.ding p{
+    font-size: 12px;
+    color: #3F4B57;
+}
+.pinglun_left_txt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ACB2B8;
+
+}
+.pinglun_left_txt_content hr{
+    border-color: #363F4C;
+}
+.zan_box{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #546372;
+}
+.zan_box button{
+    width: 50px;
+    height: 20px;
+    background: #212C3D;
+    color: #66C0F4;
+    border: 0;
+    border-radius: 3px;
+}
+.pinglun_footer_box{
+    overflow: hidden;
+    border-bottom: 1px solid #3A6E8B;
+    margin-top: 30px;
+}
+.pinglun_footer_right{
+    width: 330px;
+    overflow: hidden;
+    float: right;
+}
+.pinglun_right_txt_content{
+    width: 320px;
+    color: #69819B;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%,from(#203043), to(#1B2838));
+}
+.pinglun_right_txt_content hr{
+    border-color:#363F4C ;
+}
+
+
+
